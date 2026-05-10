@@ -1,0 +1,243 @@
+{
+  "model": "facebook/esm2_t33_650M_UR50D",
+  "n_hidden_states": 34,
+  "hidden_size": 1280,
+  "length_bins": [
+    [
+      100,
+      130
+    ],
+    [
+      130,
+      160
+    ],
+    [
+      160,
+      190
+    ],
+    [
+      190,
+      220
+    ],
+    [
+      220,
+      256
+    ]
+  ],
+  "per_bin": 20,
+  "n_per_set": 100,
+  "seed": 42,
+  "pooling": "mean over residue tokens (excluding BOS and EOS, and padding)",
+  "precision": "fp16 model forward, fp32 saved tensors",
+  "vector_definitions": {
+    "v_thermo": "mean(pos_thermo) - mean(neg_thermo)",
+    "v_struct_toward_plausible": "mean(pos_struct) - mean(neg_struct)",
+    "v_struct_toward_implausible": "-v_struct_toward_plausible (matches PDF h' = h + a*v_thermo - b*v_struct)"
+  },
+  "layer_diagnostics": [
+    {
+      "layer": 0,
+      "norm_v_thermo": 0.3010532557964325,
+      "norm_v_struct": 0.11673036217689514,
+      "cos_thermo_struct": 0.04163777083158493
+    },
+    {
+      "layer": 1,
+      "norm_v_thermo": 7.2515716552734375,
+      "norm_v_struct": 3.749626398086548,
+      "cos_thermo_struct": 0.1876349002122879
+    },
+    {
+      "layer": 2,
+      "norm_v_thermo": 7.0830302238464355,
+      "norm_v_struct": 3.6999049186706543,
+      "cos_thermo_struct": 0.19573047757148743
+    },
+    {
+      "layer": 3,
+      "norm_v_thermo": 7.037117958068848,
+      "norm_v_struct": 4.312178611755371,
+      "cos_thermo_struct": 0.23153647780418396
+    },
+    {
+      "layer": 4,
+      "norm_v_thermo": 6.968448162078857,
+      "norm_v_struct": 5.0448689460754395,
+      "cos_thermo_struct": 0.2991319000720978
+    },
+    {
+      "layer": 5,
+      "norm_v_thermo": 6.7810773849487305,
+      "norm_v_struct": 5.690986633300781,
+      "cos_thermo_struct": 0.3414885997772217
+    },
+    {
+      "layer": 6,
+      "norm_v_thermo": 6.6721272468566895,
+      "norm_v_struct": 6.817215919494629,
+      "cos_thermo_struct": 0.34357404708862305
+    },
+    {
+      "layer": 7,
+      "norm_v_thermo": 6.331920146942139,
+      "norm_v_struct": 6.900322914123535,
+      "cos_thermo_struct": 0.3936924338340759
+    },
+    {
+      "layer": 8,
+      "norm_v_thermo": 6.221933364868164,
+      "norm_v_struct": 12.773042678833008,
+      "cos_thermo_struct": 0.46154922246932983
+    },
+    {
+      "layer": 9,
+      "norm_v_thermo": 5.628701210021973,
+      "norm_v_struct": 17.64691925048828,
+      "cos_thermo_struct": 0.37864404916763306
+    },
+    {
+      "layer": 10,
+      "norm_v_thermo": 6.1599016189575195,
+      "norm_v_struct": 21.0599365234375,
+      "cos_thermo_struct": 0.5202366709709167
+    },
+    {
+      "layer": 11,
+      "norm_v_thermo": 7.509024620056152,
+      "norm_v_struct": 24.862056732177734,
+      "cos_thermo_struct": 0.5722204446792603
+    },
+    {
+      "layer": 12,
+      "norm_v_thermo": 9.37405776977539,
+      "norm_v_struct": 24.87898063659668,
+      "cos_thermo_struct": 0.5789339542388916
+    },
+    {
+      "layer": 13,
+      "norm_v_thermo": 12.906403541564941,
+      "norm_v_struct": 36.12456130981445,
+      "cos_thermo_struct": 0.705965518951416
+    },
+    {
+      "layer": 14,
+      "norm_v_thermo": 15.727883338928223,
+      "norm_v_struct": 38.100006103515625,
+      "cos_thermo_struct": 0.592045783996582
+    },
+    {
+      "layer": 15,
+      "norm_v_thermo": 17.745851516723633,
+      "norm_v_struct": 45.55810546875,
+      "cos_thermo_struct": 0.5937614440917969
+    },
+    {
+      "layer": 16,
+      "norm_v_thermo": 20.24703025817871,
+      "norm_v_struct": 46.98786544799805,
+      "cos_thermo_struct": 0.6694127321243286
+    },
+    {
+      "layer": 17,
+      "norm_v_thermo": 26.840103149414062,
+      "norm_v_struct": 57.049644470214844,
+      "cos_thermo_struct": 0.6104019284248352
+    },
+    {
+      "layer": 18,
+      "norm_v_thermo": 27.392404556274414,
+      "norm_v_struct": 53.389442443847656,
+      "cos_thermo_struct": 0.546474039554596
+    },
+    {
+      "layer": 19,
+      "norm_v_thermo": 28.896484375,
+      "norm_v_struct": 54.61281967163086,
+      "cos_thermo_struct": 0.5393571853637695
+    },
+    {
+      "layer": 20,
+      "norm_v_thermo": 31.760990142822266,
+      "norm_v_struct": 57.80298614501953,
+      "cos_thermo_struct": 0.46812185645103455
+    },
+    {
+      "layer": 21,
+      "norm_v_thermo": 32.663761138916016,
+      "norm_v_struct": 59.56415939331055,
+      "cos_thermo_struct": 0.4697433412075043
+    },
+    {
+      "layer": 22,
+      "norm_v_thermo": 33.62561798095703,
+      "norm_v_struct": 60.99406051635742,
+      "cos_thermo_struct": 0.46095362305641174
+    },
+    {
+      "layer": 23,
+      "norm_v_thermo": 33.94287109375,
+      "norm_v_struct": 64.73765563964844,
+      "cos_thermo_struct": 0.4067584276199341
+    },
+    {
+      "layer": 24,
+      "norm_v_thermo": 34.41706848144531,
+      "norm_v_struct": 66.59547424316406,
+      "cos_thermo_struct": 0.39467039704322815
+    },
+    {
+      "layer": 25,
+      "norm_v_thermo": 34.78020477294922,
+      "norm_v_struct": 70.58024597167969,
+      "cos_thermo_struct": 0.40410807728767395
+    },
+    {
+      "layer": 26,
+      "norm_v_thermo": 35.17269515991211,
+      "norm_v_struct": 74.73068237304688,
+      "cos_thermo_struct": 0.41695302724838257
+    },
+    {
+      "layer": 27,
+      "norm_v_thermo": 34.58600997924805,
+      "norm_v_struct": 77.92106628417969,
+      "cos_thermo_struct": 0.4611647129058838
+    },
+    {
+      "layer": 28,
+      "norm_v_thermo": 32.47709655761719,
+      "norm_v_struct": 81.6843032836914,
+      "cos_thermo_struct": 0.45991235971450806
+    },
+    {
+      "layer": 29,
+      "norm_v_thermo": 32.97892761230469,
+      "norm_v_struct": 86.49920654296875,
+      "cos_thermo_struct": 0.4933924674987793
+    },
+    {
+      "layer": 30,
+      "norm_v_thermo": 35.14188766479492,
+      "norm_v_struct": 102.84928894042969,
+      "cos_thermo_struct": 0.47908297181129456
+    },
+    {
+      "layer": 31,
+      "norm_v_thermo": 39.75308609008789,
+      "norm_v_struct": 123.01846313476562,
+      "cos_thermo_struct": 0.42204198241233826
+    },
+    {
+      "layer": 32,
+      "norm_v_thermo": 49.07502746582031,
+      "norm_v_struct": 174.78807067871094,
+      "cos_thermo_struct": 0.4263918995857239
+    },
+    {
+      "layer": 33,
+      "norm_v_thermo": 1.2736772298812866,
+      "norm_v_struct": 3.0777125358581543,
+      "cos_thermo_struct": 0.4047118127346039
+    }
+  ]
+}

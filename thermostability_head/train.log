@@ -1,0 +1,78 @@
+Train size: 24817
+Test size: 3134
+Train Tm stats:
+count    24817.000000
+mean        51.627994
+std         10.626008
+min         27.580418
+25%         45.482501
+50%         49.401340
+75%         54.211159
+max         98.900156
+Name: median_Tm, dtype: float64
+Test Tm stats:
+count    3134.000000
+mean       51.952829
+std        11.622768
+min        30.075889
+25%        44.957532
+50%        49.443900
+75%        54.773024
+max        98.994212
+Name: median_Tm, dtype: float64
+Loading ESM2...
+[train] Loaded 24817 cached pooled features from pooled_train.pt
+[test] Loaded 3134 cached pooled features from pooled_test.pt
+Initialized head dense + layer_norm from esm_model.lm_head
+Epoch 1: lr=1.87e-04, train_loss=0.8906, test_mse=78.8551, test_mae=6.6414, spearman=0.3933, pearson=0.6942
+Epoch 2: lr=4.56e-04, train_loss=0.4538, test_mse=47.1947, test_mae=5.2443, spearman=0.5652, pearson=0.8069
+Epoch 3: lr=5.00e-04, train_loss=0.3572, test_mse=41.3286, test_mae=4.8441, spearman=0.6398, pearson=0.8340
+Epoch 4: lr=4.99e-04, train_loss=0.3255, test_mse=39.0814, test_mae=4.6830, spearman=0.6634, pearson=0.8435
+Epoch 5: lr=4.97e-04, train_loss=0.3041, test_mse=38.0098, test_mae=4.6265, spearman=0.6713, pearson=0.8481
+Epoch 6: lr=4.93e-04, train_loss=0.2912, test_mse=38.0910, test_mae=4.6314, spearman=0.6685, pearson=0.8489
+Epoch 7: lr=4.89e-04, train_loss=0.2779, test_mse=36.8828, test_mae=4.5483, spearman=0.6884, pearson=0.8533
+Epoch 8: lr=4.84e-04, train_loss=0.2654, test_mse=36.7710, test_mae=4.5578, spearman=0.6816, pearson=0.8532
+Epoch 9: lr=4.77e-04, train_loss=0.2592, test_mse=36.6090, test_mae=4.5323, spearman=0.6845, pearson=0.8547
+Epoch 10: lr=4.70e-04, train_loss=0.2463, test_mse=36.5648, test_mae=4.5091, spearman=0.6881, pearson=0.8541
+Epoch 11: lr=4.61e-04, train_loss=0.2375, test_mse=37.5647, test_mae=4.5728, spearman=0.6920, pearson=0.8535
+Epoch 12: lr=4.52e-04, train_loss=0.2294, test_mse=36.5622, test_mae=4.5112, spearman=0.6897, pearson=0.8542
+Epoch 13: lr=4.42e-04, train_loss=0.2218, test_mse=37.6417, test_mae=4.5479, spearman=0.6954, pearson=0.8550
+Epoch 14: lr=4.31e-04, train_loss=0.2124, test_mse=36.9484, test_mae=4.5716, spearman=0.6896, pearson=0.8543
+Epoch 15: lr=4.19e-04, train_loss=0.2052, test_mse=36.9529, test_mae=4.5613, spearman=0.6814, pearson=0.8526
+Epoch 16: lr=4.07e-04, train_loss=0.1961, test_mse=37.0603, test_mae=4.5578, spearman=0.6848, pearson=0.8534
+Epoch 17: lr=3.93e-04, train_loss=0.1912, test_mse=38.3271, test_mae=4.6379, spearman=0.6681, pearson=0.8464
+Epoch 18: lr=3.80e-04, train_loss=0.1831, test_mse=37.4830, test_mae=4.5419, spearman=0.6829, pearson=0.8509
+Epoch 19: lr=3.65e-04, train_loss=0.1772, test_mse=37.9779, test_mae=4.5909, spearman=0.6719, pearson=0.8490
+Epoch 20: lr=3.50e-04, train_loss=0.1704, test_mse=38.0440, test_mae=4.6024, spearman=0.6741, pearson=0.8496
+Epoch 21: lr=3.35e-04, train_loss=0.1644, test_mse=39.1277, test_mae=4.6830, spearman=0.6617, pearson=0.8442
+Epoch 22: lr=3.19e-04, train_loss=0.1590, test_mse=38.9999, test_mae=4.6652, spearman=0.6603, pearson=0.8443
+Epoch 23: lr=3.03e-04, train_loss=0.1543, test_mse=39.0342, test_mae=4.6512, spearman=0.6657, pearson=0.8457
+Epoch 24: lr=2.87e-04, train_loss=0.1505, test_mse=39.6645, test_mae=4.7009, spearman=0.6643, pearson=0.8449
+Epoch 25: lr=2.70e-04, train_loss=0.1470, test_mse=39.5438, test_mae=4.6805, spearman=0.6593, pearson=0.8418
+Epoch 26: lr=2.54e-04, train_loss=0.1418, test_mse=39.8941, test_mae=4.6978, spearman=0.6694, pearson=0.8442
+Epoch 27: lr=2.37e-04, train_loss=0.1363, test_mse=39.7892, test_mae=4.7007, spearman=0.6586, pearson=0.8414
+Epoch 28: lr=2.21e-04, train_loss=0.1332, test_mse=40.0202, test_mae=4.7353, spearman=0.6598, pearson=0.8396
+Epoch 29: lr=2.05e-04, train_loss=0.1294, test_mse=39.7531, test_mae=4.7050, spearman=0.6651, pearson=0.8429
+Epoch 30: lr=1.88e-04, train_loss=0.1264, test_mse=40.0859, test_mae=4.7382, spearman=0.6643, pearson=0.8404
+Epoch 31: lr=1.73e-04, train_loss=0.1231, test_mse=40.3366, test_mae=4.7336, spearman=0.6609, pearson=0.8413
+Epoch 32: lr=1.57e-04, train_loss=0.1203, test_mse=40.2830, test_mae=4.7367, spearman=0.6581, pearson=0.8394
+Epoch 33: lr=1.42e-04, train_loss=0.1181, test_mse=40.7801, test_mae=4.7616, spearman=0.6594, pearson=0.8395
+Epoch 34: lr=1.27e-04, train_loss=0.1169, test_mse=40.5456, test_mae=4.7469, spearman=0.6520, pearson=0.8394
+Epoch 35: lr=1.13e-04, train_loss=0.1141, test_mse=41.0490, test_mae=4.7888, spearman=0.6534, pearson=0.8374
+Epoch 36: lr=9.96e-05, train_loss=0.1120, test_mse=40.8639, test_mae=4.7650, spearman=0.6570, pearson=0.8387
+Epoch 37: lr=8.67e-05, train_loss=0.1101, test_mse=40.9089, test_mae=4.7829, spearman=0.6520, pearson=0.8368
+Epoch 38: lr=7.46e-05, train_loss=0.1088, test_mse=40.9389, test_mae=4.7828, spearman=0.6532, pearson=0.8378
+Epoch 39: lr=6.32e-05, train_loss=0.1077, test_mse=41.1952, test_mae=4.7971, spearman=0.6498, pearson=0.8368
+Epoch 40: lr=5.26e-05, train_loss=0.1061, test_mse=41.3658, test_mae=4.8055, spearman=0.6495, pearson=0.8369
+Epoch 41: lr=4.29e-05, train_loss=0.1052, test_mse=41.3984, test_mae=4.8042, spearman=0.6474, pearson=0.8368
+Epoch 42: lr=3.41e-05, train_loss=0.1041, test_mse=41.4125, test_mae=4.8083, spearman=0.6508, pearson=0.8360
+Epoch 43: lr=2.63e-05, train_loss=0.1034, test_mse=41.5114, test_mae=4.8124, spearman=0.6510, pearson=0.8363
+Epoch 44: lr=1.94e-05, train_loss=0.1028, test_mse=41.4385, test_mae=4.8089, spearman=0.6518, pearson=0.8364
+Epoch 45: lr=1.35e-05, train_loss=0.1021, test_mse=41.5117, test_mae=4.8148, spearman=0.6491, pearson=0.8359
+Epoch 46: lr=8.67e-06, train_loss=0.1018, test_mse=41.4470, test_mae=4.8091, spearman=0.6508, pearson=0.8365
+Epoch 47: lr=4.89e-06, train_loss=0.1015, test_mse=41.5151, test_mae=4.8136, spearman=0.6510, pearson=0.8362
+Epoch 48: lr=2.18e-06, train_loss=0.1013, test_mse=41.4819, test_mae=4.8124, spearman=0.6507, pearson=0.8362
+Epoch 49: lr=5.55e-07, train_loss=0.1011, test_mse=41.4767, test_mae=4.8119, spearman=0.6506, pearson=0.8362
+Epoch 50: lr=2.01e-08, train_loss=0.1010, test_mse=41.4751, test_mae=4.8119, spearman=0.6507, pearson=0.8362
+Best epoch: 13 with Spearman 0.6954
+Saved model to thermostability_head.pt

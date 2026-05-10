@@ -1,0 +1,7 @@
+{
+  "no_ortho_dir": "/home/ubuntu/68610_project/steering_joint/no_ortho",
+  "struct_perp_dir": "/home/ubuntu/68610_project/steering_joint/struct_perp_wrt_thermo",
+  "global_cosine_stats": {
+    "mean_cos_thermo_struct": 0.4403363595552304
+  }
+}
